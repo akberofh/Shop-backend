@@ -1,10 +1,10 @@
 {
   "name": "back",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "concurrently \"nodemon app.js\" \"nodemon server\" \"nodemon Comment.js\"",
+    "build":  "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
     
   },
